@@ -1,0 +1,112 @@
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header {
+    
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(78, 168, 168);
+    padding-bottom: 90px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 18px 1px black;
+  
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+.hh h1{
+    text-align: center;
+    border: 2px solid rgb(73, 73, 73);
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 25px;
+    border-radius: 50px;
+    text-shadow: 0 0  5px white ;
+    box-shadow: 1px 1px 20px 1px aliceblue;
+    width: fit-content;
+    margin: auto;
+    
+}
+.input{
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.input #result{
+    width: 310px;
+    height: 39px;
+    border: 4px solid aliceblue;
+    border-radius: 5px;
+    margin-right: 13px;
+    margin: auto;
+    background-image: linear-gradient(170deg, aliceblue,rgb(163, 195, 255),aliceblue);    
+}
+
+.input #result:hover{
+    box-shadow: 1px 1px 8px 1px aliceblue;
+
+}
+
+.input #cc{
+    height: 39px;
+    width: 100px;
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+    background-image: linear-gradient(170deg, aliceblue,rgb(0, 89, 255));    
+    color: white;
+    font-size: 22px;
+    text-shadow:0 0 6px white;
+    padding-bottom:7px;
+    margin: auto;
+    margin-left: 20px ;
+}
+.input #cc:hover{
+   cursor: pointer;
+    box-shadow: 1px 1px 15px 1px aliceblue;
+}
+
+.buttons{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 20px;
+
+    padding: 20px;
+
+    margin:auto;
+    justify-content: space-around;
+    width:450px;
+    height: 250px;
+    
+    display:flexbox;
+    flex-wrap: wrap;
+
+}
+.buttons .button{
+    background-image: linear-gradient(170deg, aliceblue,rgb(163, 195, 255));
+    border: 3px solid aliceblue;
+    border-radius: 9px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.918);
+    text-shadow: 0 0  8px rgb(0, 0, 0) ;
+}
+.buttons .Opr{
+    background-image: linear-gradient(170deg,rgb(106, 90, 253),aliceblue);
+    border: 3px solid aliceblue;
+    border-radius: 9px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.918);
+    text-shadow: 0 0  8px rgb(0, 0, 0) ;
+}
+.buttons .button:hover{
+    box-shadow: 1px 1px 8px 1px aliceblue;
+    cursor: pointer;
+}
+.buttons .Opr:hover{
+    box-shadow: 1px 1px 8px 1px aliceblue;
+    cursor: pointer;
+}
